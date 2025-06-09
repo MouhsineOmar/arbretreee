@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.synedra",
+    "module": "validatorfx",
+    "version": "0.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "validatorfx-0.5.0.jar",
+          "url": "validatorfx-0.5.0.jar",
+          "size": 28014,
+          "sha512": "9033b642606d36ac9bf31c39b5ac601d66206519548b9dc7abe28ff647ceadc92f9caed1b6220010e8accde80507efa41e1b2d76be83388d2dd701507eca13c4",
+          "sha256": "5df37e4eb069192cf282e4977bca4271b6a2b55bb32218546ec1f307f625c606",
+          "sha1": "8eaa2e85f8f4370dc2ecd050c5627b064cb3ec74",
+          "md5": "401365a51d7bce0aca5702db1ef11652"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "validatorfx-0.5.0.jar",
+          "url": "validatorfx-0.5.0.jar",
+          "size": 28014,
+          "sha512": "9033b642606d36ac9bf31c39b5ac601d66206519548b9dc7abe28ff647ceadc92f9caed1b6220010e8accde80507efa41e1b2d76be83388d2dd701507eca13c4",
+          "sha256": "5df37e4eb069192cf282e4977bca4271b6a2b55bb32218546ec1f307f625c606",
+          "sha1": "8eaa2e85f8f4370dc2ecd050c5627b064cb3ec74",
+          "md5": "401365a51d7bce0aca5702db1ef11652"
+        }
+      ]
+    }
+  ]
+}

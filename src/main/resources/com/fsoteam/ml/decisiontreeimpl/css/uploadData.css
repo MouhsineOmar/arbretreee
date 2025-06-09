@@ -1,0 +1,62 @@
+/* General Styles */
+.root {
+    -fx-font-family: 'Arial';
+}
+
+/* VBox Styling */
+.vbox {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+/* GridPane Styling */
+.grid-pane {
+    -fx-padding: 10;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+/* TextField Styling */
+.text-field {
+    -fx-pref-height: 24px;
+    -fx-pref-width: 571px;
+    -fx-padding: 5px;
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: #2980b9;  /* bleu vif */
+    -fx-text-fill: #ecf0f1;         /* blanc doux */
+    -fx-pref-height: 24px;
+    -fx-pref-width: 155px;
+    -fx-padding: 5px 10px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #3498db; /* bleu clair */
+}
+
+.button:pressed {
+    -fx-background-color: #1abc9c; /* vert d’action */
+}
+
+/* TableView Styling */
+.table-view {
+    -fx-pref-height: 359px;
+    -fx-pref-width: 474px;
+    -fx-padding: 10;
+    -fx-background-color: white;
+    -fx-table-cell-border-color: #dfe6e9;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #3498db;
+}
+
+.table-view .column-header {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}

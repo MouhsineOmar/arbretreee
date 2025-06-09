@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.gluonhq.attach",
+    "module": "storage",
+    "version": "4.0.17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "storage-4.0.17.jar",
+          "url": "storage-4.0.17.jar",
+          "size": 2110,
+          "sha512": "b1f1f21f48349dc79ae236002aa194ada8d5dcadaecaa3b269926f95884a838369a24ff676dc9d086f5941a7bab0b655a1bf5ed33e42d9b6761a0373a04ada93",
+          "sha256": "4a096abe087edaf8356e34f0147b61301c82768233fc42b430c99ebadc0cd32a",
+          "sha1": "c42466bfdc5f1f9d4d884ca21a3574715ca0b221",
+          "md5": "829ace72914cfeacf7ced0c4bf934b11"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.openjfx",
+          "module": "javafx-base",
+          "version": {
+            "requires": "16"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-base",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-graphics",
+          "version": {
+            "requires": "16"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-graphics",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "com.gluonhq.attach",
+          "module": "util",
+          "version": {
+            "requires": "4.0.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "storage-4.0.17.jar",
+          "url": "storage-4.0.17.jar",
+          "size": 2110,
+          "sha512": "b1f1f21f48349dc79ae236002aa194ada8d5dcadaecaa3b269926f95884a838369a24ff676dc9d086f5941a7bab0b655a1bf5ed33e42d9b6761a0373a04ada93",
+          "sha256": "4a096abe087edaf8356e34f0147b61301c82768233fc42b430c99ebadc0cd32a",
+          "sha1": "c42466bfdc5f1f9d4d884ca21a3574715ca0b221",
+          "md5": "829ace72914cfeacf7ced0c4bf934b11"
+        }
+      ]
+    }
+  ]
+}

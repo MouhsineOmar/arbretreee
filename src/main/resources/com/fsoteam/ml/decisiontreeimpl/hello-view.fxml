@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="containerPane" prefHeight="601.0" prefWidth="918.0"
+            xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.fsoteam.ml.decisiontreeimpl.ui.HelloController">
+
+  <children>
+    <VBox alignment="TOP_CENTER" spacing="10" prefWidth="223.0"
+          style="-fx-background-color: #2980b9; -fx-padding: 15;"
+          AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+
+      <children>
+        <!-- Button 1 - Upload Data -->
+        <Button onAction="#loadUploadDataScene"
+                prefHeight="47.0" prefWidth="223.0"
+                stylesheets="@css/style.css" style="-fx-background-color: transparent;">
+          <graphic>
+            <HBox alignment="CENTER_LEFT" spacing="10">
+              <FontAwesomeIconView glyphName="UPLOAD" glyphSize="20" fill="#ecf0f1" />
+              <Label text="1) Upload Data" textFill="#ecf0f1">
+                <font>
+                  <Font size="15.0" />
+                </font>
+              </Label>
+            </HBox>
+          </graphic>
+        </Button>
+
+        <!-- Button 2 - Run Test -->
+        <Button onAction="#loadRunTestScene"
+                prefHeight="47.0" prefWidth="223.0"
+                stylesheets="@css/style.css" style="-fx-background-color: transparent;">
+          <graphic>
+            <HBox alignment="CENTER_LEFT" spacing="10">
+              <FontAwesomeIconView glyphName="PLAY" glyphSize="20" fill="#ecf0f1" />
+              <Label text="2) Run Test" textFill="#ecf0f1">
+                <font>
+                  <Font size="15.0" />
+                </font>
+              </Label>
+            </HBox>
+          </graphic>
+        </Button>
+
+        <!-- Button 3 - Evaluate -->
+        <Button onAction="#loadEvaluateScene"
+                prefHeight="47.0" prefWidth="223.0"
+                stylesheets="@css/style.css" style="-fx-background-color: transparent;">
+          <graphic>
+            <HBox alignment="CENTER_LEFT" spacing="10">
+              <FontAwesomeIconView glyphName="CHECK" glyphSize="20" fill="#ecf0f1" />
+              <Label text="3) Evaluate" textFill="#ecf0f1">
+                <font>
+                  <Font size="15.0" />
+                </font>
+              </Label>
+            </HBox>
+          </graphic>
+        </Button>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.kordamp.bootstrapfx</groupId>
+  <artifactId>bootstrapfx-core</artifactId>
+  <version>0.4.0</version>
+  <name>bootstrapfx</name>
+  <description>BootstrapFX: CSS and widgets</description>
+  <url>https://github.com/kordamp/bootstrapfx</url>
+  <inceptionYear>2015</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://spdx.org/licenses/MIT.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>aalmiray</id>
+      <name>Andres Almiray</name>
+      <url>http://andresalmiray.com/</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <properties>
+        <twitter>aalmiray</twitter>
+        <github>aalmiray</github>
+      </properties>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/kordamp/bootstrapfx.git</connection>
+    <developerConnection>scm:git:git@github.com:kordamp/bootstrapfx.git</developerConnection>
+    <url>https://github.com/kordamp/bootstrapfx</url>
+  </scm>
+  <properties/>
+  <dependencies/>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Pos?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.fsoteam.ml.decisiontreeimpl.ui.WelcomeInterfaceController"
+            prefHeight="400.0" prefWidth="600.0"
+            style="-fx-background-color: #ecf0f1;">
+
+    <VBox alignment="CENTER" spacing="20.0"
+          AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0"
+          AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0">
+
+        <Label text="Welcome to DTree" textFill="#2c3e50" style="-fx-font-weight: bold;">
+            <font>
+                <Font size="28.0" />
+            </font>
+        </Label>
+
+        <Label text="simple Decision Tree Classifier" textFill="#34495e">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label text="© FSO 2025" textFill="#7f8c8d">
+            <font>
+                <Font size="12.0" />
+            </font>
+        </Label>
+
+    </VBox>
+
+</AnchorPane>

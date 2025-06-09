@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.gluonhq.attach",
+    "module": "lifecycle",
+    "version": "4.0.17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lifecycle-4.0.17.jar",
+          "url": "lifecycle-4.0.17.jar",
+          "size": 4471,
+          "sha512": "95587a7a8d24dc9657eee00a491ef130beb0bc277986b2f78e5d0a03dd1cec9d15b53ee35fea8c066fa624823afe73469cb6962c3da9fd858d3ba855cb80d18a",
+          "sha256": "85392a6b244bacfce772231d16b61c8d09892c106d730f39911f3158e5744882",
+          "sha1": "efe9f0c28d9b25300ac75bb30b9940991fb3e0b4",
+          "md5": "33bf9d56f037b2f6177b04ce7d093d04"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.openjfx",
+          "module": "javafx-base",
+          "version": {
+            "requires": "16"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-base",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-graphics",
+          "version": {
+            "requires": "16"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-graphics",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "com.gluonhq.attach",
+          "module": "util",
+          "version": {
+            "requires": "4.0.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-4.0.17.jar",
+          "url": "lifecycle-4.0.17.jar",
+          "size": 4471,
+          "sha512": "95587a7a8d24dc9657eee00a491ef130beb0bc277986b2f78e5d0a03dd1cec9d15b53ee35fea8c066fa624823afe73469cb6962c3da9fd858d3ba855cb80d18a",
+          "sha256": "85392a6b244bacfce772231d16b61c8d09892c106d730f39911f3158e5744882",
+          "sha1": "efe9f0c28d9b25300ac75bb30b9940991fb3e0b4",
+          "md5": "33bf9d56f037b2f6177b04ce7d093d04"
+        }
+      ]
+    }
+  ]
+}

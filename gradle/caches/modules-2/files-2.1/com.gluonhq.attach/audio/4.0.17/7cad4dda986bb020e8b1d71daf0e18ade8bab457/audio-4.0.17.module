@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.gluonhq.attach",
+    "module": "audio",
+    "version": "4.0.17",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "audio-4.0.17.jar",
+          "url": "audio-4.0.17.jar",
+          "size": 2387,
+          "sha512": "33d61584be3c3ad8327352ade5f894fbfb3313ad2a4095cf5c3c48bb54a4601aacd6d30bea7e45e31f66ca01cce63494e2003105f179ca7486d91c71144f2751",
+          "sha256": "c5acd71a0b8c94dd2f625ff550bbdbdb737a19f0254be4b0425a8ecfa9ebf791",
+          "sha1": "ed8c59b6a7c18b7e8d30fde3f63e49c0296794d2",
+          "md5": "9722bff2dd2a351ac13bf61e99188535"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.openjfx",
+          "module": "javafx-base",
+          "version": {
+            "requires": "16"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-base",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "org.openjfx",
+          "module": "javafx-graphics",
+          "version": {
+            "requires": "16"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "javafx-graphics",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "mac"
+            }
+          }
+        },
+        {
+          "group": "com.gluonhq.attach",
+          "module": "util",
+          "version": {
+            "requires": "4.0.17"
+          }
+        },
+        {
+          "group": "com.gluonhq.attach",
+          "module": "storage",
+          "version": {
+            "requires": "4.0.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "audio-4.0.17.jar",
+          "url": "audio-4.0.17.jar",
+          "size": 2387,
+          "sha512": "33d61584be3c3ad8327352ade5f894fbfb3313ad2a4095cf5c3c48bb54a4601aacd6d30bea7e45e31f66ca01cce63494e2003105f179ca7486d91c71144f2751",
+          "sha256": "c5acd71a0b8c94dd2f625ff550bbdbdb737a19f0254be4b0425a8ecfa9ebf791",
+          "sha1": "ed8c59b6a7c18b7e8d30fde3f63e49c0296794d2",
+          "md5": "9722bff2dd2a351ac13bf61e99188535"
+        }
+      ]
+    }
+  ]
+}

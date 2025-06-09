@@ -1,0 +1,19 @@
+.button {
+    -fx-background-color: #336699;    /* Bleu standard */
+    -fx-text-fill: white;             /* Texte blanc */
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-font-weight: normal;
+    -fx-border-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: #4477aa;    /* Bleu plus clair */
+}
+
+.button:pressed {
+    -fx-background-color: #225588;    /* Bleu foncé */
+}

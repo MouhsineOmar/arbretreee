@@ -1,0 +1,120 @@
+{
+    "formatVersion": "1.1",
+    "component": {
+        "group": "eu.hansolo",
+        "module": "tilesfx",
+        "version": "21.0.3",
+        "attributes": {
+            "org.gradle.status": "release"
+        }
+    },
+    "createdBy": {
+        "gradle": {
+            "version": "8.5"
+        }
+    },
+    "variants": [
+        {
+            "name": "apiElements",
+            "attributes": {
+                "org.gradle.category": "library",
+                "org.gradle.dependency.bundling": "external",
+                "org.gradle.jvm.version": 21,
+                "org.gradle.libraryelements": "jar",
+                "org.gradle.usage": "java-api"
+            },
+            "dependencies": [
+                {
+                    "group": "eu.hansolo.fx",
+                    "module": "countries",
+                    "version": {
+                        "requires": "21.0.3"
+                    }
+                }
+            ],
+            "files": [
+                {
+                    "name": "tilesfx-21.0.3.jar",
+                    "url": "tilesfx-21.0.3.jar",
+                    "size": 4993993,
+                    "sha512": "b47655364c399830b00771af3f7dc287999954966e1fc14b4d40430096a4715c5f9d5830dcfcf225d035e1ee3675b214ff7a007f43e7009ecd3deb4dadc6913e",
+                    "sha256": "242d25974a9402bed620e70789e100f5239d49d6d85f2773647d07d0979ff739",
+                    "sha1": "e81280bd504d93df331d7850a66e0dcfbe71b3aa",
+                    "md5": "d76090bfd588b5ca4babbf914c4abb74"
+                }
+            ]
+        },
+        {
+            "name": "runtimeElements",
+            "attributes": {
+                "org.gradle.category": "library",
+                "org.gradle.dependency.bundling": "external",
+                "org.gradle.jvm.version": 21,
+                "org.gradle.libraryelements": "jar",
+                "org.gradle.usage": "java-runtime"
+            },
+            "dependencies": [
+                {
+                    "group": "org.openjfx",
+                    "module": "javafx-base",
+                    "version": {
+                        "requires": "21.0.1"
+                    }
+                },
+                {
+                    "group": "org.openjfx",
+                    "module": "javafx-graphics",
+                    "version": {
+                        "requires": "21.0.1"
+                    }
+                },
+                {
+                    "group": "org.openjfx",
+                    "module": "javafx-controls",
+                    "version": {
+                        "requires": "21.0.1"
+                    }
+                },
+                {
+                    "group": "org.openjfx",
+                    "module": "javafx-swing",
+                    "version": {
+                        "requires": "21.0.1"
+                    }
+                },
+                {
+                    "group": "org.openjfx",
+                    "module": "javafx-web",
+                    "version": {
+                        "requires": "21.0.1"
+                    }
+                },
+                {
+                    "group": "org.openjfx",
+                    "module": "javafx-media",
+                    "version": {
+                        "requires": "21.0.1"
+                    }
+                },
+                {
+                    "group": "eu.hansolo.fx",
+                    "module": "countries",
+                    "version": {
+                        "requires": "21.0.3"
+                    }
+                }
+            ],
+            "files": [
+                {
+                    "name": "tilesfx-21.0.3.jar",
+                    "url": "tilesfx-21.0.3.jar",
+                    "size": 4993993,
+                    "sha512": "b47655364c399830b00771af3f7dc287999954966e1fc14b4d40430096a4715c5f9d5830dcfcf225d035e1ee3675b214ff7a007f43e7009ecd3deb4dadc6913e",
+                    "sha256": "242d25974a9402bed620e70789e100f5239d49d6d85f2773647d07d0979ff739",
+                    "sha1": "e81280bd504d93df331d7850a66e0dcfbe71b3aa",
+                    "md5": "d76090bfd588b5ca4babbf914c4abb74"
+                }
+            ]
+        }
+    ]
+}
